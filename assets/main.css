@@ -64,3 +64,26 @@ a{
     
 }  
 }
+/*plans*/
+.plans .p1{
+    font-family: Reenie Beanie;
+    color: var(--main-color);
+}
+.plans h2{
+    color:var(--text-color);
+}
+.plans .p2{
+    color: var(--p-color);
+}
+.plans button{
+    background-color:var(--main-color);
+    color: #fff;
+
+}
+.plan .btn{
+    background-color:var(--main-color);
+    color: #fff;
+}
+.plan span{
+    color: var(--text-color);
+}
