@@ -87,3 +87,23 @@ a{
 .plan span{
     color: var(--text-color);
 }
+/*           /*
+/*choose your trip*/
+.choose-your-trip{
+    background-image: url("../imgs/choose\ background.png");
+    background-color: #EDF2F5;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.choose-your-trip h3{
+    font-size: small;
+    color:var(--main-color);
+    font-family: Reenie Beanie;
+}
+.choose-your-trip img{
+    width:25px;
+}
+.choose-your-trip button{
+    background-color: var(--main-color);
+    color:#fff;
+}
