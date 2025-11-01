@@ -121,3 +121,37 @@ a{
     font-size: 50px;
 }
 /*   */
+/*Adventure Travel*/
+.Adventure-Travel .p1{
+    font-family:Reenie Beanie ;
+    color: #fff;
+}
+.Adventure-Travel{
+    background-image: url("../imgs/background2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.Adventure-Travel .overlay {
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+.Adventure-Travel .p2{
+    color: #fff;
+}
+.Adventure-Travel h2{
+    color: #fff;
+}
+.Adventure-Travel button{
+    background-color: var(--main-color);
+    color:#fff;
+}
+.Adventure-Travel .check{
+    width:15px;
+    height: 15px;
+}
+.Adventure-Travel .left img{
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
