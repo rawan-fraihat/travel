@@ -107,3 +107,17 @@ a{
     background-color: var(--main-color);
     color:#fff;
 }
+/*   */
+/* next-adventure*/
+.next-adventure .p1{
+    font-family:Reenie Beanie ;
+    color:var(--main-color);
+}
+.next-adventure .p2{
+    color:var(--p-color);
+}
+.next-adventure h2{
+    color:var(--text-color);
+    font-size: 50px;
+}
+/*   */

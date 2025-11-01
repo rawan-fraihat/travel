@@ -1,384 +1,423 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link href="./assets/main.css" rel="stylesheet"/>
-  </head>
-  <body>
-   <header>
-      <nav
-        class="navbar navbar-expand-lg bg-light position-sticky w-100  d-flex "
-      >
-        <div class="container">
-          <div class="edu-titel d-flex gap-1 ">
-            <a class="navbar-brand main-font" href="#"><img class="edu-icon" src="./imgs/logo.png" /></a>
-          </div>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
-            <ul class="navbar-nav d-flex gap-3 mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
-              </li>
-              <a><img class="pt-3"src="./imgs/between-nav.png"/></a>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Travel</a>
-              </li>
-              <a><img class="pt-3"src="./imgs/between-nav.png"/></a>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pages</a>
-              </li>
-              <a><img class="pt-3"src="./imgs/between-nav.png"/></a>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="./assets/main.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light position-sticky w-100  d-flex ">
+      <div class="container">
+        <div class="edu-titel d-flex gap-1 ">
+          <a class="navbar-brand main-font" href="#"><img class="edu-icon" src="./imgs/logo.png" /></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
+          <ul class="navbar-nav d-flex gap-3 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <a><img class="pt-3" src="./imgs/between-nav.png" /></a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Travel</a>
+            </li>
+            <a><img class="pt-3" src="./imgs/between-nav.png" /></a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pages</a>
+            </li>
+            <a><img class="pt-3" src="./imgs/between-nav.png" /></a>
             </a>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Shop</a>
-              </li>
-              <a><img class="pt-3"src="./imgs/between-nav.png"/></a>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <a><img class="pt-3"src="./imgs/between-nav.png"/></a>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
-              </li>
-          
-            </ul>
-                <div class="Register column-gap-3">
-                  <span class="navbar-toggler-icon me-3"></span>
-                <button class="btn btn-primary pe-4 ps-4">Search</button>
-              </div>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <a><img class="pt-3" src="./imgs/between-nav.png" /></a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <a><img class="pt-3" src="./imgs/between-nav.png" /></a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+
+          </ul>
+          <div class="Register column-gap-3">
+            <span class="navbar-toggler-icon me-3"></span>
+            <button class="btn btn-primary pe-4 ps-4">Search</button>
           </div>
         </div>
-      </nav>
-    </header>
-<section class="hero">
-  <div class="container">
-    <div class="row">
-      <div class="left-hero col-md-6 col-12 mt-5"style="padding-top:50px;">
-        <h1>Begin YourFantastic TravelExperience Here</h1>
-        <p>Discover handcrafted travel experiences that blend adventure and luxury, creating memories that last alifetime</p>
-        <div class="row ">
-          <button class="discover btn mt-3 w-auto">Discover Now</button>
-          <button class="btn w-auto"><img src="./imgs/play.svg.png"> <a href="#">How It Work?</a></button>
+      </div>
+    </nav>
+        
+  </header>
+  <section class="hero">
+    <div class="container">
+      <div class="row">
+        <div class="left-hero col-md-6 col-12 mt-5" style="padding-top:50px;">
+          <h1>Begin YourFantastic TravelExperience Here</h1>
+          <p>Discover handcrafted travel experiences that blend adventure and luxury, creating memories that last
+            alifetime</p>
+          <div class="row ">
+            <button class="discover btn mt-3 w-auto">Discover Now</button>
+            <button class="btn w-auto"><img src="./imgs/play.svg.png"> <a href="#">How It Work?</a></button>
+          </div>
+        </div>
+        <div class="right-hero col-md-6 col-12 text-center mt-4 ">
+          <img src="./imgs/tourists.png" />
         </div>
       </div>
-      <div class="right-hero col-md-6 col-12 text-center mt-4 ">
-        <img src="./imgs/tourists.png"/>
-      </div>
-    </div>
-    
+
       <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-between px-5 navbar-border">
         <div>
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
-        <li class="nav-item">
-          <button><a class="nav-link active" aria-current="page" href="#">Tours</a></button>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Hotels</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Tickets</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Rental</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Activities</a>
-        </li>
-        </li>
-      </ul>
-    </div>
-      <div class="pe-4">
-        <a href="#"><img src="./imgs/Link.png"/></a>
-      </div>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+            <li class="nav-item">
+              <button><a class="nav-link active" aria-current="page" href="#">Tours</a></button>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Hotels</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Tickets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Rental</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Activities</a>
+            </li>
+            </li>
+          </ul>
+        </div>
+        <div class="pe-4">
+          <a href="#"><img src="./imgs/Link.png" /></a>
+        </div>
       </nav>
-</nav>
+      </nav>
+    </div>
+    </div>
+  </section>
+  <div class="container under-hero-border col-12 w-100">
+    <div class="row d-flex align-items-center justify-content-between">
+      <div class="col-auto d-flex align-items-center">
+        <div>
+          <p>Location</p>
+          <div class="d-flex align-items-center gap-2">
+            <a><img src="./imgs/location.png" alt="Location icon" /></a>
+            <a class="information">New York, USA</a>
+            <a><img src="./imgs/todown.png" alt="Dropdown icon" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-auto d-flex align-items-center">
+        <img src="./imgs/Divider.png" alt="Divider" />
+      </div>
+      <div class="col-auto d-flex align-items-center">
+        <div>
+          <p>Check In</p>
+          <div class="d-flex align-items-center gap-2">
+            <a><img src="./imgs/calender.png" alt="Location icon" /></a>
+            <a class="information">02 January 2024</a>
+            <a><img src="./imgs/todown.png" alt="Dropdown icon" /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-auto d-flex align-items-center">
+        <img src="./imgs/Divider.png" alt="Divider" />
+      </div>
+
+      <div class="col-auto d-flex align-items-center">
+        <div>
+          <p>Check Out</p>
+          <div class="d-flex align-items-center gap-2">
+            <a><img src="./imgs/calender.png" alt="Location icon" /></a>
+            <a class="information">02 January 2024</a>
+            <a><img src="./imgs/todown.png" alt="Dropdown icon" /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-auto d-flex align-items-center">
+        <img src="./imgs/Divider.png" alt="Divider" />
+      </div>
+
+      <div class="col-auto d-flex align-items-center">
+        <div>
+          <p>Guest</p>
+          <div class="d-flex align-items-center gap-2">
+            <a><img src="./imgs/user.svg.png" alt="Location icon" /></a>
+            <a class="information">2adults,2children</a>
+            <a><img src="./imgs/todown.png" alt="Dropdown icon" /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-auto d-flex align-items-center">
+        <div>
+          <button class="btn search-hero"><img src="./imgs/search.png" />search</button>
+        </div>
+      </div>
+
     </div>
   </div>
-</section>
-<div class="container under-hero-border col-12 w-100">
-  <div class="row d-flex align-items-center justify-content-between">
-    <div class="col-auto d-flex align-items-center">
-      <div>
-        <p>Location</p>
-        <div class="d-flex align-items-center gap-2">
-          <a><img src="./imgs/location.png" alt="Location icon" /></a>
-          <a class="information">New York, USA</a>
-          <a><img src="./imgs/todown.png" alt="Dropdown icon" /></a>
-        </div>
-      </div>
-    </div>
-    <div class="col-auto d-flex align-items-center">
-      <img src="./imgs/Divider.png" alt="Divider" />
-    </div>
-    <div class="col-auto d-flex align-items-center">
-      <div>
-        <p>Check In</p>
-        <div class="d-flex align-items-center gap-2">
-          <a><img src="./imgs/calender.png" alt="Location icon" /></a>
-          <a class="information">02 January 2024</a>
-          <a><img src="./imgs/todown.png" alt="Dropdown icon" /></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-auto d-flex align-items-center">
-      <img src="./imgs/Divider.png" alt="Divider" />
-    </div>
-
-    <div class="col-auto d-flex align-items-center">
-      <div>
-        <p>Check Out</p>
-        <div class="d-flex align-items-center gap-2">
-          <a><img src="./imgs/calender.png" alt="Location icon" /></a>
-          <a class="information">02 January 2024</a>
-          <a><img src="./imgs/todown.png" alt="Dropdown icon" /></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-auto d-flex align-items-center">
-      <img src="./imgs/Divider.png" alt="Divider" />
-    </div>
-
-    <div class="col-auto d-flex align-items-center">
-      <div>
-        <p>Guest</p>
-        <div class="d-flex align-items-center gap-2">
-          <a><img src="./imgs/user.svg.png" alt="Location icon" /></a>
-          <a class="information">2adults,2children</a>
-          <a><img src="./imgs/todown.png" alt="Dropdown icon" /></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-auto d-flex align-items-center">
-      <div>
-        <button class="btn search-hero"><img src="./imgs/search.png"/>search</button>
-      </div>
-    </div>
-
   </div>
-</div>
-</div>
-</div>
-
-<section class="plans">
-  <div class="container">
-  <div class="col-md-4 pt-5">
-  <p class="p1">Dream Vacation Destination</p>
-  <h2>Plan the Trip of a Lifetime with Ease</h2>
-  <p class="p2">Whether you're looking for a romantic getaway, a family-friendly adventure, or a solo journey to explore the world, a travel agency can provide you with a custom-tailored itinerary that exceeds your expectations.</p>
-  <button class="btn">More Info</button>
-</div>
-<div class="electric-bikes col-12 pt-5">
-  <div class="container">
-    <div class="row g-3"> 
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <img src="./imgs/electric bikes1.png" class="img-fluid w-100 rounded" alt="Electric Bike 1">
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <img src="./imgs/electric bikes1.png" class="img-fluid w-100 rounded" alt="Electric Bike 2">
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <img src="./imgs/electric bikes1.png" class="img-fluid w-100 rounded" alt="Electric Bike 3">
-      </div>
-    </div>
   </div>
-</div>
 
-<div class="plan col-12 pt-5">
-  <div class="container">
-    <div class="row g-4">
-
-   <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="card shadow-sm border-0 p-3">
-          <img src="./imgs/skate.png" class="img-fluid w-100 rounded mb-3" alt="Skate">
-
-          <div class="d-flex justify-content-between align-items-center px-3 mb-2">
-            <div class="d-flex">
-              <img src="./imgs/time.png" class="me-2" width="20" alt="Time">
-              <span>1 week</span>
+  <section class="plans">
+    <div class="container">
+      <div class="col-md-4 pt-5">
+        <p class="p1">Dream Vacation Destination</p>
+        <h2>Plan the Trip of a Lifetime with Ease</h2>
+        <p class="p2">Whether you're looking for a romantic getaway, a family-friendly adventure, or a solo journey to
+          explore the world, a travel agency can provide you with a custom-tailored itinerary that exceeds your
+          expectations.</p>
+        <button class="btn">More Info</button>
+      </div>
+      <div class="electric-bikes col-12 pt-5">
+        <div class="container">
+          <div class="row g-3">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <img src="./imgs/electric bikes1.png" class="img-fluid w-100 rounded" alt="Electric Bike 1">
             </div>
-            <div class="d-flex gap-2">
-              <img src="./imgs/message.png" width="20" alt="Message">
-              <img src="./imgs/road.png" width="20" alt="Road">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <img src="./imgs/electric bikes1.png" class="img-fluid w-100 rounded" alt="Electric Bike 2">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <img src="./imgs/electric bikes1.png" class="img-fluid w-100 rounded" alt="Electric Bike 3">
             </div>
           </div>
+        </div>
+      </div>
 
-          <div class="card-body">
-            <h3>Chiang Mai</h3>
-            <div class="d-flex mb-2">
-              <img src="./imgs/location.png" width="20" class="me-2" alt="Location">
-              <p class="mb-0">Thailand</p>
-            </div>
+      <div class="plan col-12 pt-5">
+        <div class="container">
+          <div class="row g-4">
 
-            <p class="card-text mb-4">
-              Visit the temples and the Chiang Mai Night Bazaar, a huge market located on Chiang Klan Road.
-            </p>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card shadow-sm border-0 p-3">
+                <img src="./imgs/skate.png" class="img-fluid w-100 rounded mb-3" alt="Skate">
 
-            <div class="d-flex justify-content-between align-items-center px-2">
-              <button class="btn btn-outline-primary">Details</button>
-              <div class="text-end">
-                <p class="mb-0 text-muted">From</p>
-                <span class="fw-bold">$490</span>
+                <div class="d-flex justify-content-between align-items-center px-3 mb-2">
+                  <div class="d-flex">
+                    <img src="./imgs/time.png" class="me-2" width="20" alt="Time">
+                    <span>1 week</span>
+                  </div>
+                  <div class="d-flex gap-2">
+                    <img src="./imgs/message.png" width="20" alt="Message">
+                    <img src="./imgs/road.png" width="20" alt="Road">
+                  </div>
+                </div>
+
+                <div class="card-body">
+                  <h3>Chiang Mai</h3>
+                  <div class="d-flex mb-2">
+                    <img src="./imgs/location.png" width="20" class="me-2" alt="Location">
+                    <p class="mb-0">Thailand</p>
+                  </div>
+
+                  <p class="card-text mb-4">
+                    Visit the temples and the Chiang Mai Night Bazaar, a huge market located on Chiang Klan Road.
+                  </p>
+
+                  <div class="d-flex justify-content-between align-items-center px-2">
+                    <button class="btn btn-outline-primary">Details</button>
+                    <div class="text-end">
+                      <p class="mb-0 text-muted">From</p>
+                      <span class="fw-bold">$490</span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="card shadow-sm border-0 p-3">
-          <img src="./imgs/skate.png" class="img-fluid w-100 rounded mb-3" alt="Skate">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card shadow-sm border-0 p-3">
+                <img src="./imgs/skate.png" class="img-fluid w-100 rounded mb-3" alt="Skate">
 
-          <div class="d-flex justify-content-between align-items-center px-3 mb-2">
-            <div class="d-flex">
-              <img src="./imgs/time.png" class="me-2" width="20" alt="Time">
-              <span>1 week</span>
-            </div>
-            <div class="d-flex gap-2">
-              <img src="./imgs/message.png" width="20" alt="Message">
-              <img src="./imgs/road.png" width="20" alt="Road">
-            </div>
-          </div>
+                <div class="d-flex justify-content-between align-items-center px-3 mb-2">
+                  <div class="d-flex">
+                    <img src="./imgs/time.png" class="me-2" width="20" alt="Time">
+                    <span>1 week</span>
+                  </div>
+                  <div class="d-flex gap-2">
+                    <img src="./imgs/message.png" width="20" alt="Message">
+                    <img src="./imgs/road.png" width="20" alt="Road">
+                  </div>
+                </div>
 
-          <div class="card-body">
-            <h3>Chiang Mai</h3>
-            <div class="d-flex mb-2">
-              <img src="./imgs/location.png" width="20" class="me-2" alt="Location">
-              <p class="mb-0">Thailand</p>
-            </div>
+                <div class="card-body">
+                  <h3>Chiang Mai</h3>
+                  <div class="d-flex mb-2">
+                    <img src="./imgs/location.png" width="20" class="me-2" alt="Location">
+                    <p class="mb-0">Thailand</p>
+                  </div>
 
-            <p class="card-text mb-4">
-              Visit the temples and the Chiang Mai Night Bazaar, a huge market located on Chiang Klan Road.
-            </p>
+                  <p class="card-text mb-4">
+                    Visit the temples and the Chiang Mai Night Bazaar, a huge market located on Chiang Klan Road.
+                  </p>
 
-            <div class="d-flex justify-content-between align-items-center px-2">
-              <button class="btn btn-outline-primary">Details</button>
-              <div class="text-end">
-                <p class="mb-0 text-muted">From</p>
-                <span class="fw-bold">$490</span>
+                  <div class="d-flex justify-content-between align-items-center px-2">
+                    <button class="btn btn-outline-primary">Details</button>
+                    <div class="text-end">
+                      <p class="mb-0 text-muted">From</p>
+                      <span class="fw-bold">$490</span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="card shadow-sm border-0 p-3">
-          <img src="./imgs/skate.png" class="img-fluid w-100 rounded mb-3" alt="Skate">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card shadow-sm border-0 p-3">
+                <img src="./imgs/skate.png" class="img-fluid w-100 rounded mb-3" alt="Skate">
 
-          <div class="d-flex justify-content-between align-items-center px-3 mb-2">
-            <div class="d-flex">
-              <img src="./imgs/time.png" class="me-2" width="20" alt="Time">
-              <span>1 week</span>
-            </div>
-            <div class="d-flex gap-2">
-              <img src="./imgs/message.png" width="20" alt="Message">
-              <img src="./imgs/road.png" width="20" alt="Road">
-            </div>
-          </div>
+                <div class="d-flex justify-content-between align-items-center px-3 mb-2">
+                  <div class="d-flex">
+                    <img src="./imgs/time.png" class="me-2" width="20" alt="Time">
+                    <span>1 week</span>
+                  </div>
+                  <div class="d-flex gap-2">
+                    <img src="./imgs/message.png" width="20" alt="Message">
+                    <img src="./imgs/road.png" width="20" alt="Road">
+                  </div>
+                </div>
 
-          <div class="card-body">
-            <h3>Chiang Mai</h3>
-            <div class="d-flex mb-2">
-              <img src="./imgs/location.png" width="20" class="me-2" alt="Location">
-              <p class="mb-0">Thailand</p>
-            </div>
+                <div class="card-body">
+                  <h3>Chiang Mai</h3>
+                  <div class="d-flex mb-2">
+                    <img src="./imgs/location.png" width="20" class="me-2" alt="Location">
+                    <p class="mb-0">Thailand</p>
+                  </div>
 
-            <p class="card-text mb-4">
-              Visit the temples and the Chiang Mai Night Bazaar, a huge market located on Chiang Klan Road.
-            </p>
+                  <p class="card-text mb-4">
+                    Visit the temples and the Chiang Mai Night Bazaar, a huge market located on Chiang Klan Road.
+                  </p>
 
-            <div class="d-flex justify-content-between align-items-center px-2">
-              <button class="btn btn-outline-primary">Details</button>
-              <div class="text-end">
-                <p class="mb-0 text-muted">From</p>
-                <span class="fw-bold">$490</span>
+                  <div class="d-flex justify-content-between align-items-center px-2">
+                    <button class="btn btn-outline-primary">Details</button>
+                    <div class="text-end">
+                      <p class="mb-0 text-muted">From</p>
+                      <span class="fw-bold">$490</span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
+
+
           </div>
         </div>
       </div>
+
+    </div>
+    </div>
+    </div>
 
 
     </div>
-  </div>
-</div>
+  </section>
 
-    </div>
-  </div>
-</div>
-
-
-</div>
-</section>
-
-<section class="choose-your-trip mt-5 pb-5">
-  <div class="container">
-    <div class="d-flex flex-column col-6 align-items-center justify-content-center mx-auto py-5 gap-2">
-      <h3>Choose your Trip</h3>
-      <h2>Start your Vacation Now</h2>
-      <p class="text-center">
-        Looking for your dream vacation destination but don't know where to start? With the help of
-        experienced and knowledgeable travel agents, you can plan the trip of a lifetime with ease.
-      </p>
+  <section class="choose-your-trip mt-5 pb-5">
+    <div class="container">
+      <div class="d-flex flex-column col-6 align-items-center justify-content-center mx-auto py-5 gap-2">
+        <h3>Choose your Trip</h3>
+        <h2>Start your Vacation Now</h2>
+        <p class="text-center">
+          Looking for your dream vacation destination but don't know where to start? With the help of
+          experienced and knowledgeable travel agents, you can plan the trip of a lifetime with ease.
+        </p>
       </div>
       <div class="row d-flex col-12 p-2 bg-light border-0 rounded-4 justify-content-between">
         <div class="d-flex col-lg-3 col-md-6 col-sm-12 justify-content-center">
           <div class="d-flex gap-2">
             <div class="my-auto">
-          <img src="./imgs/b-search.png"/>
-           </div>
-          <div>
-            <h4>Search</h4>
-            <p>Insert keyword</p>
-          </div>   
+              <img src="./imgs/b-search.png" />
+            </div>
+            <div>
+              <h4>Search</h4>
+              <p>Insert keyword</p>
+            </div>
           </div>
-          </div>
-          <div class="d-flex col-lg-3 col-md-6 col-sm-12 justify-content-center">
+        </div>
+        <div class="d-flex col-lg-3 col-md-6 col-sm-12 justify-content-center">
           <div class="d-flex gap-3 ">
             <div class="my-auto">
-          <img src="./imgs/b-location.png"/>
-           </div>
-          <div>
-            <h4>Destinations</h4>
-            <p>All Destinations</p>
-          </div>   
+              <img src="./imgs/b-location.png" />
+            </div>
+            <div>
+              <h4>Destinations</h4>
+              <p>All Destinations</p>
+            </div>
           </div>
-          </div>
-          <div class="d-flex col-lg-3 col-md-6 col-sm-12 justify-content-center">
+        </div>
+        <div class="d-flex col-lg-3 col-md-6 col-sm-12 justify-content-center">
           <div class="d-flex gap-3">
             <div class="my-auto">
-          <img src="./imgs/bar.png"/>
-           </div>
-          <div>
-            <h4>Typologies</h4>
-            <p>All Typologies</p>
-          </div>   
+              <img src="./imgs/bar.png" />
+            </div>
+            <div>
+              <h4>Typologies</h4>
+              <p>All Typologies</p>
+            </div>
           </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center mb-3">
-            <button class="btn my-auto px-5">search</button>
-          </div>
-      
-    
-  </div>
-</section>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center mb-3">
+          <button class="btn my-auto px-5">search</button>
+        </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </body>
+
+      </div>
+  </section>
+  <section class="next-adventure">
+    <div class="container">
+      <div class="row col-12 py-5">
+      <div class="left col-6 d-flex flex-column justify-content-center">
+      <p class="p1">Next Adventure</p>
+      <h2>Travel Destinations Available Worldwide</h2>
+      <p class="p2">We have compiled a list of top destinations across the globe, scoured the world for the most alluring and
+        fascinating places to visit. From the beautiful beaches of the Caribbean to the majestic mountains of Europe and
+        the vibrant cities of Asia, our destination list has something for everyone.</p>
+      </div>
+      <div class="right col-6">
+        <div class="d-flex justify-content-end">
+        <img src="./imgs/skate2.png"/>
+      </div>
+      </div>
+      </div>
+<div class="next-where container my-4">
+  <div class="row g-3 justify-content-center">
+    <div class="col-6 col-sm-4 col-md-3">
+      <img src="./imgs/greece.png" alt="Greece" class="img-fluid rounded shadow-sm">
+    </div>
+    <div class="col-6 col-sm-4 col-md-3">
+      <img src="./imgs/egypt.png" alt="Egypt" class="img-fluid rounded shadow-sm">
+    </div>
+    <div class="col-6 col-sm-4 col-md-3">
+      <img src="./imgs/africa.png" alt="Africa" class="img-fluid rounded shadow-sm">
+    </div>
+    <div class="col-6 col-sm-4 col-md-3">
+      <img src="./imgs/france.png" alt="France" class="img-fluid rounded shadow-sm">
+    </div>
+  </div>
+</div>
+
+</div>
+
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
