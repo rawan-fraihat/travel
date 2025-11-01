@@ -155,3 +155,9 @@ a{
   height: auto;
   object-fit: contain;
 }
+/*  /*
+/*Travel Itineraries*/
+.travel-itineraries h2{
+    font-size: 50px;
+    color: var(--text-color);
+}
