@@ -161,3 +161,29 @@ a{
     font-size: 50px;
     color: var(--text-color);
 }
+/* */
+/*    */
+.unforgettable-travel-experiences{
+    background-image: url("../imgs/background3.png");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .unforgettable-travel-experiences .who-comment{
+    width:50px;
+ }
+ .unforgettable-travel-experiences .p2{
+    width: fit-content;
+    height: 5px;
+ }
+ .unforgettable-travel-experiences .comment{
+    background-color:var(--main-color);
+    color:#fff;
+ }
