@@ -189,6 +189,11 @@ a{
  }
  /* */
  /*Affordable Travel Packages*/
+ .affordable-travel-packages{
+    background-image: url("../imgs/affordable\ bg.png");
+    background-repeat: no-repeat;
+    background-size: 400px;
+ }
 .affordable-travel-packages .p1{
     font-family:Reenie Beanie ;
     color:var(--main-color);
