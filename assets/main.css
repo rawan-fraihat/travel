@@ -187,3 +187,73 @@ a{
     background-color:var(--main-color);
     color:#fff;
  }
+ /* */
+ /*Affordable Travel Packages*/
+.affordable-travel-packages .p1{
+    font-family:Reenie Beanie ;
+    color:var(--main-color);
+}
+.affordable-travel-packages .h2{
+    color: var(--text-color);
+}
+.affordable-travel-packages .price1 ul{
+    list-style:none ;
+    color: var(--p-color);
+}
+.affordable-travel-packages .price1 button{
+    background-color: var(--main-color);
+    color: #fff;
+}
+.affordable-travel-packages .price1{
+    background-color: #EDF2F5;
+}
+.affordable-travel-packages .p1-price1{
+    color:var(--text-color);
+}
+.affordable-travel-packages .h2-price1{
+    color:var(--text-color);
+}
+.affordable-travel-packages .p2-price1{
+    color:var(--text-color);
+}
+.affordable-travel-packages .price3{
+    background-color: #EDF2F5;
+}
+.affordable-travel-packages .price3 button{
+    background-color: var(--main-color);
+}
+.affordable-travel-packages .price3 ul{
+    list-style:none ;
+}
+.price1:hover{
+    background-color: var(--main-color);
+    color: #fff;
+}
+.price1:hover .h2-price1{
+    color: #fff;
+}
+.price1:hover .p1-price1{
+    color: #fff;
+}
+.price1:hover .p2-price1{
+    color: #fff;
+}
+.price1:hover .list1{
+    color: #fff;
+}
+.price3:hover{
+    color:#fff;
+    background-color: var(--main-color);
+}
+.price1:hover{
+    color:#fff;
+    background-color: var(--main-color);
+}
+.price1:hover .btn{
+    background-color: var(--text-color);
+}
+.price3:hover .btn{
+    background-color: var(--text-color);
+    color: #fff;
+}
+ /* */
