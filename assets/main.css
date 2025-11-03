@@ -278,3 +278,31 @@ a{
     background-color:var(--main-color);
     color: #fff;
  }
+ /* */
+ /*roaming tales*/
+ .roaming-tales .p1{
+    font-family:Reenie Beanie ;
+    color:var(--main-color);
+ }
+ .roaming-tales h2{
+    color:var(--text-color);
+ }
+ .roaming-tales .p2{
+    color:var(--p-color);
+ }
+ .roaming-tales .date{
+    background-color:var(--main-color);
+    color:#fff;
+    width: fit-content;
+    padding: 3px;
+ }
+ .roaming-tales .date:hover{
+ background-color: var(--text-color);
+ }
+ .roaming-tales button{
+    background-color: var(--main-color);
+    color:#fff;
+ }
+ .roaming-tales h3{
+    color:var(--text-color)
+ }
