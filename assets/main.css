@@ -262,3 +262,19 @@ a{
     color: #fff;
 }
  /* */
+ /*Wandering Souls*/
+ .wandering-souls .p1{
+    font-family:Reenie Beanie ;
+    color:var(--main-color);
+ }
+ .wandering-souls h2{
+    color:var(--text-color);
+    font-size: 50px;
+ }
+ .wandering-souls p{
+    color: var(--p-color);
+ }
+ .wandering-souls button{
+    background-color:var(--main-color);
+    color: #fff;
+ }
