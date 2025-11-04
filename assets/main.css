@@ -299,10 +299,53 @@ a{
  .roaming-tales .date:hover{
  background-color: var(--text-color);
  }
+  .roaming-tales .btn:hover{
+ background-color: var(--text-color);
+ }
  .roaming-tales button{
     background-color: var(--main-color);
     color:#fff;
  }
  .roaming-tales h3{
     color:var(--text-color)
+ }
+ /* */
+ /* footer*/
+ .footer{
+    background-image: url("../imgs/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+ }
+ .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.footer .container{
+    position: relative;
+  z-index: 2;
+  color: white;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.footer .btn{
+    background-color: var(--main-color);
+    color:#fff;
+}
+ .footer .btn:hover{
+ background-color: var(--text-color);
+ }
+ .footer .list{
+    list-style-type: square ;
+    
+ }
+ .footer .pay-way img{
+    width:45px;
+    height: 30px;
+    margin-right: 5px;
  }
