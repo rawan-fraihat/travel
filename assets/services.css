@@ -44,3 +44,35 @@ a{
     z-index: 2; 
     color: white;
 }
+/*contact us*/
+.contact-us .right{
+    background-color: #EDF2F5;
+}
+.p1{
+    font-family: Reenie Beanie;
+    color: var(--main-color);
+}
+h2{
+    color:var(--text-color);
+}
+.contact-us .right input{
+    background-color:  #EDF2F5;
+    border-color: #757575;
+}
+.contact-us .under-contact{
+    background-image: url("../imgs/under\ contact.png");
+    background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.contact-us .under-contact .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgb(29, 29, 84 ,0.6);
+  z-index: 1;
+}
+.contact-us .under-contact img{
+     position: relative;
+    z-index: 2; 
+}
