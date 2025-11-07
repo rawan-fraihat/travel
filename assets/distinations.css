@@ -44,4 +44,20 @@ a{
     z-index: 2; 
     color: white;
 }
-.distinations{}
+/*footer*/
+ .footer{
+    background-image: url("../imgs/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+ }
+ .footer .container{
+    position: relative;
+  z-index: 2;
+  color: white;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
